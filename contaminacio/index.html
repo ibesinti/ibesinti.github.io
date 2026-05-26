@@ -278,66 +278,7 @@ The impact of these diseases is not the same for everyone. Respiratory illnesses
 <li> When analyzing the data by sex, the results are very similar for both men and women.</li>
 <li>The lower lines (SO<sub>2</sub>, CO, C<sub>6</sub>H<sub>6</sub>): substances like carbon monoxide or benzene are very close to zero. This are good news, as it indicates that certain types of industrial and old fuel pollution are under control.</li>
 <p></p>
-   <div align="center" data-aos="fade-up">
-  <h1>What is the Origin of Air Pollution in El Prat (Sagnier)</h1>
-     <img class="img-fluid rounded shadow-sm my-3" src="pollutionrose(no2).png">
-  <p><li>To know the origin of air pollution in El Prat (Sagnier) is easy with RStudio</li></p>
-  <p></p>
-  <p><li>We only need data in columns named WS for wind speed, WD for wind direction and to choose a pollutant e.g.: NO<sub>2</sub>. These are conditions of the openair library
-  in order to create a pollution rose with the instruction: <code>pollutionRose(cityall, pollutant="no2")</code></li></p>
-  <p></p>
-  <p><li>This is a Pollution Rose. It works like a compass, showing exactly which 
-    direction the wind blows from when the air in El Prat contains high levels of Nitrogen Dioxide (NO<sub>2</sub>).</li></p>
-    <p><li>The Petals: The length of each section shows how often the wind blows from that direction.The Colors: Orange and dark red represent high pollution levels. 
-    Green and yellow represent clean air.</li></p>
-    <p><li>The Colors: Orange and dark red represent high pollution levels. Green and yellow represent clean air.</li></p>
-    <p><li>As you can see in the following image air pollution of El Prat (Sagnier) comes form Southwest area.</li></p>
-<p></p>
-    <img class="img-fluid rounded shadow-sm my-3" src="googlemaps.png">
-   </div>  
-  <p></p>  
-    
-  <div align="center" data-aos="fade-up"> 
-<h2>Polar Plot</h2>
-      <p></p>
-  <img class="img-fluid rounded shadow-sm my-3" src="polarPlot(no2).png">
-      <p></p>
-<p><li>The Polar Plot goes a step further than the previous graph. It shows how pollution changes based on two things at the same time: 
-  the direction of the wind and the speed of the wind.</li></p>
-  <p><li>Distance from the center: The closer to the center , the weaker the wind is. The further out, the stronger the wind blows.</li></p>
-  <p><li>The Colors: Purple and dark red show the highest pollution (NO<sub>2</sub>). Blue and green show clean air.</li></p>
-  <p><li>The highest pollution (dark purple) happens right in the center when the wind speed is nearly zero. When the air does not move, 
-  traffic emissions from local streets cannot escape and accumulate quickly around the station.</li></p></div>
-<p></p>
-
-  <div align="center" data-aos="fade-up"> 
-  <h2>Polar Map</h2>
-  <p></p>
-       <img class="img-fluid rounded shadow-sm my-3" src="polarMap.png">
-  <p></p>
-  <p><li>This map takes the polar plot and overlays it directly onto the real map of El Prat de Llobregat, centering it right on the Sagnier measuring station. 
-    It shows exactly which roads and infrastructures are causing the pollution.</li></p>
-  <p><li>This colored overlay sits directly over the C-31 / Autovia de Castelldefels and the Damm brewery.</li></p>
-  <p><li>It proves that when the wind blows from these directions, it carries the heavy emissions from highway traffic and industrial boilers straight to the monitoring station.</li></p>
-</div>
-<p></p>
-
-  <div align="center" data-aos="fade-up">
-  <h2>Conclusion</h2>
-<li>Overall, the graphics show that nitrogen dioxide (NO<sub>2</sub>) levels in El Prat (Sagnier) change depending on the time of day, month, and year, with higher concentrations usually appearing during peak activity hours, likely related to traffic and urban activity.
-
-In 2025, most days present low or moderate pollution levels, meaning that air quality is generally acceptable, although some days show higher concentrations.
-
-In addition, we analyzed health data from the SIVIC system and compared it with the pollution levels. This comparison suggests that air pollution may be related to certain respiratory diseases, since higher pollution periods can coincide with increases in health incidents.
-
-That's why, the study indicates that air quality can have an impact on public health, highlighting the importance of monitoring pollution levels and reducing emissions to protect people’s health.</li>
-To understand this impact, our Pollution Rose, Polar Plot, and Polar Map reveal that the highest 
-  NO<sub>2</sub> concentrations are coming from the West and Southwest, aligning directly with 
-  the C-31 / Autovia de Castelldefels and extending toward the Barcelona-El Prat Airport. 
-  Furthermore, a significant localized source is identified to the North/Northwest, right over the Damm brewery, where industrial boilers, 
-  cogeneration plants, and heavy distribution truck traffic feed directly into the urban wind path. According to weather data from Meteocat, while eastern sea breezes keep the city clean, winter inversions and calm, windless conditions trap all these highway, industrial, and urban emissions right at ground level, creating the high-pollution seen at the center of the 
-  Polar Plot where wind speed is nearly zero. <p></p></div>
-
+  
   <button id="backToTop" class="btn btn-primary" 
 style="position: fixed; bottom: 25px; right: 25px; display:none; border-radius: 50%;">
   <i class="fa-solid fa-arrow-up"></i>
